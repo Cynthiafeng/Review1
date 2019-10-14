@@ -14,7 +14,7 @@ const [midColour, setMidColour]= useState('#3399ff');
         <Picker
             style={styles.picker}
             selectedValue={midColour}
-            onValueChange={(itemValue)=>setmidColor(itemValue)}
+            onValueChange={(itemValue)=>setMidColour(itemValue)}
         >
             <Picker.Item label="Color 1" value="#ffffcc" />
             <Picker.Item label="Color 2" value="#d98cb3" />

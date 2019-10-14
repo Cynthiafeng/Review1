@@ -1,9 +1,9 @@
 import {StyleSheet} from 'react-native';
 
 var styles = StyleSheet.create({
-    cont:{
+    cont:{ justifyContent:"center",
     },
-    picker:{
+    picker:{ justifyContent:"center",
     }
 });
 

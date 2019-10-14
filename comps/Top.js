@@ -18,7 +18,7 @@ function Top(){
         <View style={[styles.top,{backgroundColor:'#000'}]}>
             <Switch
             value ={switchInp}
-            onValueChange ={(itemValue, itemIndex) => setShowTheme(itemValue)}>
+            onValueChange ={(itemValue, itemIndex) => setSwitchInp(itemValue)}>
             </Switch>
             <Text style={{color: '#fff'}}>Night Mode</Text>
         </View>
@@ -31,7 +31,7 @@ if (switchInp ===false){
     <View style={[styles.top,{backgroundColor:'#fff'}]}>
         <Switch
         value ={switchInp}
-        onValueChange ={(itemValue, itemIndex) => setShowTheme(itemValue)}>
+        onValueChange ={(itemValue, itemIndex) => setSwitchInp(itemValue)}>
         </Switch>
 
         <Text style={{color: '#000'}}>Day Mode</Text>

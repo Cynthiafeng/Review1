@@ -1,7 +1,9 @@
 import {StyleSheet} from 'react-native';
 
 var styles= StyleSheet.create({
-    top:{
+    top:{ justifyContent:"center",
+          alignItems: "center",
+          paddingVertical:100,
 
     }
     }

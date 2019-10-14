@@ -11,7 +11,8 @@ function Main(){
         <View style={styles.main} >
             <View style={styles.divs}><Top/></View>
             <View style={styles.divs}><Mid /></View>
-            <View style={styles.divs}></View>
+            <View style={styles.divs}><Bot/></View>
+            
         </View>
 
     )
